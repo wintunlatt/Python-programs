@@ -53,7 +53,7 @@ def modify_svg(svg_path, status_dict):
 # --- Layout: Title and Logo ---
 col1, col2 = st.columns([4, 1])
 with col1:
-    st.title("Shopfloor Machine Status Dashboard")
+    st.title("W1411 Machine Status")
 with col2:
     st.image("SP_logo.png", width=100)
 
